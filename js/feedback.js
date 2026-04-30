@@ -1,5 +1,5 @@
 /*
- * Ata Chapters — Geri bildirim (Firebase RTDB REST).
+ * ATA Chapters — Geri bildirim (Firebase RTDB REST).
  * Yönetici: Alt+Shift+Y ile gizli giriş; yanıt / yönetici silme yalnızca tanımlı yönetici hesaplarında. Silme RTDB’de auth + UID ile sınırlıdır.
  */
 (function () {
@@ -908,7 +908,7 @@
   function notifyTelegram(name, rating, message) {
     var stars = "";
     for (var i = 0; i < rating; i++) stars += "⭐";
-    var text = "📩 *Ata Chapters — Yeni geri bildirim*\n\n" +
+    var text = "📩 *ATA Chapters — Yeni geri bildirim*\n\n" +
       "👤 *İsim:* " + name + "\n" +
       stars + " (" + rating + "/5)\n\n" +
       "💬 " + message;
