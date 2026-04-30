@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "ATA Reference / ATA Chapters — site ile uygulama dil ve tema senkronu için sözleşme.",
+  "description": "ATA Reference / ATA Chapter — site ile uygulama dil ve tema senkronu için sözleşme.",
   "siteOrigin": "https://www.atachapter.com",
   "localStorage": {
     "langKey": "ata-lang",
