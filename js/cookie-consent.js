@@ -150,10 +150,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     var consent = readConsent();
     if (consent === "accepted") return;
-    if (consent === "rejected") {
-      ejectFromSite();
-      return;
-    }
+    // "rejected" kalıcı ban değildir; sonraki girişte tekrar onay şansı verilir.
     renderGate();
   });
 })();
