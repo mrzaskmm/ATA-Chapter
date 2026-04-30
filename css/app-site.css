@@ -442,14 +442,15 @@ html:not([data-theme="dark"]) main.app-content.container:has(.landing-hero) {
   }
 
   .app-menu {
-    display: flex !important;
+    display: none;
     position: fixed;
     top: 3.65rem;
     right: 0;
     left: 0;
     width: 100%;
-    height: auto;
-    max-height: min(80dvh, calc(100vh - 4.25rem));
+    bottom: 0;
+    height: calc(100dvh - 3.65rem);
+    max-height: calc(100vh - 3.65rem);
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: stretch;
@@ -462,14 +463,14 @@ html:not([data-theme="dark"]) main.app-content.container:has(.landing-hero) {
     -webkit-overflow-scrolling: touch;
     background: var(--bg-elevated);
     border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
+    border-bottom: none;
     box-shadow: 0 14px 40px rgba(15, 53, 80, 0.14);
-    transform: translateY(-110%);
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
     z-index: 9999;
-    transition: transform 0.28s var(--ease-out), opacity 0.22s ease, visibility 0.28s;
+    transition: none;
   }
 
   [data-theme="dark"] .app-menu {
@@ -484,10 +485,7 @@ html:not([data-theme="dark"]) main.app-content.container:has(.landing-hero) {
   }
 
   .app-top.is-nav-open .app-menu {
-    transform: translateY(0);
-    visibility: visible;
-    opacity: 1;
-    pointer-events: auto;
+    display: flex;
   }
 
   .app-menu a {
