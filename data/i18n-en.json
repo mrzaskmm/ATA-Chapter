@@ -154,7 +154,7 @@
     "replyEmpty": "Enter reply text."
   },
   "footer": {
-    "html": "© __YEAR__ Ata Chapter · <a href=\"../nasil-yuklenir.html\">Install</a> · <a href=\"../indir.html\">Releases</a> · <a href=\"#credits\">Team</a>"
+    "html": "© __YEAR__ Ata Chapter · <a href=\"../nasil-yuklenir.html\">Install</a> · <a href=\"../indir.html\">Releases</a> · <a href=\"../kullanim-kosullari.html\">Terms of Use</a> · <a href=\"../gizlilik-politikasi.html\">Privacy Policy and Disclosure</a> · Unauthorized copying or imitation is prohibited and may result in legal action."
   },
   "page": {
     "downloadTitle": "Download — Ata Chapters",
@@ -165,8 +165,8 @@
     "installDesc": "How to install the Ata Chapters APK on Android.",
     "installH1": "How to install",
     "installLead": "Because this app is distributed <strong>outside Google Play</strong>, installation works like any other <strong>side-loaded APK</strong>. Steps below are typical; menu names vary by manufacturer.",
-    "footerDownload": "© __YEAR__ Ata Chapter · <a href=\"anasayfa/\">Home</a> · <a href=\"anasayfa/#credits\">Team</a>",
-    "footerInstall": "© __YEAR__ Ata Chapter · <a href=\"indir.html\">Download</a> · <a href=\"anasayfa/#credits\">Team</a>"
+    "footerDownload": "© __YEAR__ Ata Chapter · <a href=\"anasayfa/\">Home</a> · <a href=\"kullanim-kosullari.html\">Terms of Use</a> · <a href=\"gizlilik-politikasi.html\">Privacy Policy and Disclosure</a> · Unauthorized copying or imitation is prohibited and may result in legal action.",
+    "footerInstall": "© __YEAR__ Ata Chapter · <a href=\"indir.html\">Download</a> · <a href=\"kullanim-kosullari.html\">Terms of Use</a> · <a href=\"gizlilik-politikasi.html\">Privacy Policy and Disclosure</a> · Unauthorized copying or imitation is prohibited and may result in legal action."
   },
   "releases": {
     "upcomingTipLabel": "New version",
