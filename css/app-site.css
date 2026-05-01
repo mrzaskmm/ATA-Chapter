@@ -341,6 +341,20 @@ html:not([data-theme="dark"]) main.app-content.container:has(.landing-hero) {
   color: var(--accent);
 }
 
+/* Test team page has an extra-long active nav label; allow wrap there */
+@media (min-width: 901px) {
+  body[data-page="test-team"] .app-top__inner {
+    align-items: flex-start;
+  }
+
+  body[data-page="test-team"] .app-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.2rem;
+    overflow-x: visible;
+  }
+}
+
 @media (min-width: 1401px) {
   .app-menu {
     justify-content: center;
