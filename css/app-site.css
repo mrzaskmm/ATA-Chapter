@@ -1484,6 +1484,10 @@ body.is-app-nav-open {
   border-left: 4px solid var(--accent);
 }
 
+.upcoming-release-banner--alpha {
+  margin-top: 0.6rem;
+}
+
 .upcoming-release-banner__label {
   margin: 0 0 0.4rem;
   font-size: 0.68rem;
