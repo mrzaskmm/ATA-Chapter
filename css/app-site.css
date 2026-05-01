@@ -315,6 +315,7 @@ html:not([data-theme="dark"]) main.app-content.container:has(.landing-hero) {
   gap: 0.25rem 0.85rem;
   min-width: 0;
   overflow-x: auto;
+  overflow-y: hidden;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -344,8 +345,9 @@ html:not([data-theme="dark"]) main.app-content.container:has(.landing-hero) {
   .app-menu {
     justify-content: center;
     overflow-x: auto;
+    overflow-y: hidden;
     flex-wrap: nowrap;
-    scrollbar-width: thin;
+    scrollbar-width: none;
   }
 }
 
