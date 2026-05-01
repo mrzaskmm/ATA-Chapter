@@ -69,6 +69,12 @@
       ) +
       "</li>" +
       "<li>" +
+      makeLink(
+        "google-play-gizlilik-politikasi.html",
+        t("Google Play gizlilik politikası", "Google Play privacy policy")
+      ) +
+      "</li>" +
+      "<li>" +
       '<button type="button" class="cookie-consent__linkbtn" data-cookie-open>' +
       t("Çerez Onay Metni", "Cookie Consent Notice") +
       "</button>" +
@@ -103,8 +109,8 @@
       '<input type="checkbox" data-legal-check>' +
       "<span>" +
       t(
-        "Kullanım Koşulları, site ve uygulama gizlilik politikaları ile Çerez Onay Metni'ni okudum, kabul ediyorum.",
-        "I have read and agree to the Terms of Use, the website and app privacy policies, and the Cookie Consent Notice."
+        "Kullanım Koşulları, site, APK ve Google Play uygulama gizlilik politikaları ile Çerez Onay Metni'ni okudum, kabul ediyorum.",
+        "I have read and agree to the Terms of Use, the website, APK, and Google Play app privacy policies, and the Cookie Consent Notice."
       ) +
       "</span>" +
       "</label>" +
