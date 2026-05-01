@@ -59,7 +59,13 @@
       "<li>" +
       makeLink(
         "gizlilik-politikasi.html",
-        t("Gizlilik Politikası ve Aydınlatma Metni", "Privacy Policy and Disclosure")
+        t("Gizlilik Politikası ve Aydınlatma Metni (site)", "Privacy Policy and Disclosure (website)")
+      ) +
+      "</li>" +
+      "<li>" +
+      makeLink(
+        "uygulama-gizlilik-politikasi.html",
+        t("Uygulama Gizlilik Politikası (APK)", "App privacy policy (APK)")
       ) +
       "</li>" +
       "<li>" +
@@ -97,8 +103,8 @@
       '<input type="checkbox" data-legal-check>' +
       "<span>" +
       t(
-        "Kullanım Koşulları, Gizlilik Politikası ve Çerez Onay Metni'ni okudum, kabul ediyorum.",
-        "I have read and agree to the Terms of Use, Privacy Policy, and Cookie Consent Notice."
+        "Kullanım Koşulları, site ve uygulama gizlilik politikaları ile Çerez Onay Metni'ni okudum, kabul ediyorum.",
+        "I have read and agree to the Terms of Use, the website and app privacy policies, and the Cookie Consent Notice."
       ) +
       "</span>" +
       "</label>" +

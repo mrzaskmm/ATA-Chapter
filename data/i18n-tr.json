@@ -154,7 +154,7 @@
     "replyEmpty": "Yanıt metni yazın."
   },
   "footer": {
-    "html": "© __YEAR__ ATA Chapter · <a href=\"../nasil-yuklenir.html\">Kurulum</a> · <a href=\"../indir.html\">Sürümler</a> · <a href=\"../kullanim-kosullari.html\">Kullanım Koşulları</a> · <a href=\"../gizlilik-politikasi.html\">Gizlilik Politikası ve Aydınlatma Metni</a> · İzinsiz kopyalama/taklit yasaktır; ihlalde hukuki işlem uygulanır."
+    "html": "© __YEAR__ ATA Chapter · <a href=\"../nasil-yuklenir.html\">Kurulum</a> · <a href=\"../indir.html\">Sürümler</a> · <a href=\"../kullanim-kosullari.html\">Kullanım Koşulları</a> · <a href=\"../gizlilik-politikasi.html\">Gizlilik Politikası ve Aydınlatma Metni</a> · <a href=\"../uygulama-gizlilik-politikasi.html\">Uygulama Gizlilik Politikası</a> · İzinsiz kopyalama/taklit yasaktır; ihlalde hukuki işlem uygulanır."
   },
   "page": {
     "downloadTitle": "İndir — ATA Chapter",
@@ -165,8 +165,8 @@
     "installDesc": "ATA Chapter — Android’e APK ile nasıl yüklenir.",
     "installH1": "Nasıl yüklenir",
     "installLead": "Bu uygulama <strong>Google Play dışından</strong> dağıtıldığı için kurulum, herhangi bir Android uygulamasına <strong>APK dosyası ile</strong> yaptığın standart adımlarla aynıdır. Aşağıda tipik bir akış var; üretici arayüzüne göre menü isimleri biraz değişebilir.",
-    "footerDownload": "© __YEAR__ ATA Chapter · <a href=\"anasayfa/\">Ana sayfa</a> · <a href=\"kullanim-kosullari.html\">Kullanım Koşulları</a> · <a href=\"gizlilik-politikasi.html\">Gizlilik Politikası ve Aydınlatma Metni</a> · İzinsiz kopyalama/taklit yasaktır; ihlalde hukuki işlem uygulanır.",
-    "footerInstall": "© __YEAR__ ATA Chapter · <a href=\"indir.html\">İndir</a> · <a href=\"kullanim-kosullari.html\">Kullanım Koşulları</a> · <a href=\"gizlilik-politikasi.html\">Gizlilik Politikası ve Aydınlatma Metni</a> · İzinsiz kopyalama/taklit yasaktır; ihlalde hukuki işlem uygulanır."
+    "footerDownload": "© __YEAR__ ATA Chapter · <a href=\"anasayfa/\">Ana sayfa</a> · <a href=\"kullanim-kosullari.html\">Kullanım Koşulları</a> · <a href=\"gizlilik-politikasi.html\">Gizlilik Politikası ve Aydınlatma Metni</a> · <a href=\"uygulama-gizlilik-politikasi.html\">Uygulama Gizlilik Politikası</a> · İzinsiz kopyalama/taklit yasaktır; ihlalde hukuki işlem uygulanır.",
+    "footerInstall": "© __YEAR__ ATA Chapter · <a href=\"indir.html\">İndir</a> · <a href=\"kullanim-kosullari.html\">Kullanım Koşulları</a> · <a href=\"gizlilik-politikasi.html\">Gizlilik Politikası ve Aydınlatma Metni</a> · <a href=\"uygulama-gizlilik-politikasi.html\">Uygulama Gizlilik Politikası</a> · İzinsiz kopyalama/taklit yasaktır; ihlalde hukuki işlem uygulanır."
   },
   "releases": {
     "upcomingTipLabel": "Yeni sürüm",

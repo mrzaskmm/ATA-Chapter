@@ -154,7 +154,7 @@
     "replyEmpty": "Enter reply text."
   },
   "footer": {
-    "html": "© __YEAR__ ATA Chapter · <a href=\"../nasil-yuklenir.html\">Install</a> · <a href=\"../indir.html\">Releases</a> · <a href=\"../kullanim-kosullari.html\">Terms of Use</a> · <a href=\"../gizlilik-politikasi.html\">Privacy Policy and Disclosure</a> · Unauthorized copying or imitation is prohibited and may result in legal action."
+    "html": "© __YEAR__ ATA Chapter · <a href=\"../nasil-yuklenir.html\">Install</a> · <a href=\"../indir.html\">Releases</a> · <a href=\"../kullanim-kosullari.html\">Terms of Use</a> · <a href=\"../gizlilik-politikasi.html\">Privacy Policy and Disclosure</a> · <a href=\"../uygulama-gizlilik-politikasi.html\">App privacy policy (APK)</a> · Unauthorized copying or imitation is prohibited and may result in legal action."
   },
   "page": {
     "downloadTitle": "Download — ATA Chapter",
@@ -165,8 +165,8 @@
     "installDesc": "How to install the ATA Chapter APK on Android.",
     "installH1": "How to install",
     "installLead": "Because this app is distributed <strong>outside Google Play</strong>, installation works like any other <strong>side-loaded APK</strong>. Steps below are typical; menu names vary by manufacturer.",
-    "footerDownload": "© __YEAR__ ATA Chapter · <a href=\"anasayfa/\">Home</a> · <a href=\"kullanim-kosullari.html\">Terms of Use</a> · <a href=\"gizlilik-politikasi.html\">Privacy Policy and Disclosure</a> · Unauthorized copying or imitation is prohibited and may result in legal action.",
-    "footerInstall": "© __YEAR__ ATA Chapter · <a href=\"indir.html\">Download</a> · <a href=\"kullanim-kosullari.html\">Terms of Use</a> · <a href=\"gizlilik-politikasi.html\">Privacy Policy and Disclosure</a> · Unauthorized copying or imitation is prohibited and may result in legal action."
+    "footerDownload": "© __YEAR__ ATA Chapter · <a href=\"anasayfa/\">Home</a> · <a href=\"kullanim-kosullari.html\">Terms of Use</a> · <a href=\"gizlilik-politikasi.html\">Privacy Policy and Disclosure</a> · <a href=\"uygulama-gizlilik-politikasi.html\">App privacy policy (APK)</a> · Unauthorized copying or imitation is prohibited and may result in legal action.",
+    "footerInstall": "© __YEAR__ ATA Chapter · <a href=\"indir.html\">Download</a> · <a href=\"kullanim-kosullari.html\">Terms of Use</a> · <a href=\"gizlilik-politikasi.html\">Privacy Policy and Disclosure</a> · <a href=\"uygulama-gizlilik-politikasi.html\">App privacy policy (APK)</a> · Unauthorized copying or imitation is prohibited and may result in legal action."
   },
   "releases": {
     "upcomingTipLabel": "New version",
