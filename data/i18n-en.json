@@ -10,6 +10,7 @@
     "chapters": "Chapters",
     "download": "Download",
     "how": "Install",
+    "testJoin": "Join Test Team",
     "privacy": "Privacy",
     "contact": "Contact",
     "team": "Team",
@@ -28,7 +29,7 @@
     "playStoreNoticeLabel": "Important update",
     "playStoreNoticeBody": "<strong>APK downloads have been permanently disabled.</strong> The app will be released on Google Play soon.",
     "alphaTestLabel": "Alpha testing team call",
-    "alphaTestBody": "The app is currently in <strong>alpha</strong> on Google Play. We need 20 testers to move to the next stage. If you want to join, please use the <a href=\"../iletisim.html\">Contact</a> page and send your full name and Play Store email address.",
+    "alphaTestBody": "The app is currently in <strong>alpha</strong> on Google Play and we need 20 testers for the next stage. See full details on the <a href=\"../test-ekibine-katilma.html\">Join Test Team</a> page.",
     "alphaReq1": "You need a device running Android 7.0 or later.",
     "alphaReq2": "You should be able to send feedback when you encounter bugs or issues during testing."
   },
