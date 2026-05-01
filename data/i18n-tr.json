@@ -26,7 +26,11 @@
     "releaseTipBody": "<strong>Yeni sürüm yayında.</strong> Güncel APK için <a href=\"../indir.html\">İndir &amp; sürümler</a> sayfasına git.",
     "releaseTipClose": "Bildirimi kapat (bir daha gösterme)",
     "playStoreNoticeLabel": "Önemli duyuru",
-    "playStoreNoticeBody": "<strong>APK indirme kalıcı olarak devre dışı bırakıldı.</strong> Uygulama Play Store'da yakında yayınlanacak."
+    "playStoreNoticeBody": "<strong>APK indirme kalıcı olarak devre dışı bırakıldı.</strong> Uygulama Play Store'da yakında yayınlanacak.",
+    "alphaTestLabel": "Alpha test ekibi çağrısı",
+    "alphaTestBody": "Uygulama şu an Play Store'da <strong>alpha</strong> sürümünde. Bir üst aşamaya geçmek için 20 kişilik test ekibi gerekiyor. Katılmak isteyenler <a href=\"../iletisim.html\">İletişim</a> sayfasından ad soyad ve Play Store e-posta adresini göndererek başvurabilir.",
+    "alphaReq1": "Android 7.0 ve üzeri bir cihaza sahip olmanız gerekir.",
+    "alphaReq2": "Test sırasında karşılaşılan hata/aksaklıkları geri bildirim olarak iletebilmeniz gerekir."
   },
   "hero": {
     "headline": "ATA Chapter Artık Cebinizde",
@@ -46,13 +50,13 @@
     "cite": "Erken erişim"
   },
   "btn": {
-    "apk": "Play Store'da yakinda",
+    "apk": "Play Store'da yakında",
     "details": "Detaylar",
     "gotoDownload": "İndir sayfasına git"
   },
   "store": {
     "hiddenTitle": "Mağaza yayını",
-    "copy": "<strong>Google Play</strong> ve <strong>App Store</strong> sürümleri <strong>yakında</strong> yayında olacak. Şu an uygulama <strong>erken erişim</strong> aşamasında; en güncel yapıyı doğrudan bu siteden <strong>APK</strong> ile indirip kurabilirsin.",
+    "copy": "<strong>Google Play</strong> ve <strong>App Store</strong> sürümleri <strong>yakında</strong> yayında olacak. APK dağıtımı kalıcı olarak devre dışı bırakılmıştır.",
     "gpAlt": "Yakında Google Play’de",
     "asAlt": "Yakında App Store’da",
     "gpBadgeSrc": "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png",

@@ -26,7 +26,11 @@
     "releaseTipBody": "<strong>New version is live.</strong> Get the latest APK on the <a href=\"../indir.html\">Download &amp; releases</a> page.",
     "releaseTipClose": "Dismiss (don’t show again)",
     "playStoreNoticeLabel": "Important update",
-    "playStoreNoticeBody": "<strong>APK downloads have been permanently disabled.</strong> The app will be released on Google Play soon."
+    "playStoreNoticeBody": "<strong>APK downloads have been permanently disabled.</strong> The app will be released on Google Play soon.",
+    "alphaTestLabel": "Alpha testing team call",
+    "alphaTestBody": "The app is currently in <strong>alpha</strong> on Google Play. We need 20 testers to move to the next stage. If you want to join, please use the <a href=\"../iletisim.html\">Contact</a> page and send your full name and Play Store email address.",
+    "alphaReq1": "You need a device running Android 7.0 or later.",
+    "alphaReq2": "You should be able to send feedback when you encounter bugs or issues during testing."
   },
   "hero": {
     "headline": "ATA Chapter In Your Pocket",
@@ -52,7 +56,7 @@
   },
   "store": {
     "hiddenTitle": "Store availability",
-    "copy": "<strong>Google Play</strong> and <strong>App Store</strong> builds are <strong>coming soon</strong>. The app is in <strong>early access</strong> right now; get the latest build as an <strong>APK</strong> from this site.",
+    "copy": "<strong>Google Play</strong> and <strong>App Store</strong> builds are <strong>coming soon</strong>. APK distribution has been permanently disabled.",
     "gpAlt": "Coming soon on Google Play",
     "asAlt": "Coming soon on the App Store",
     "gpBadgeSrc": "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png",
