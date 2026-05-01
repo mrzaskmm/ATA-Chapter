@@ -24,7 +24,9 @@
   "home": {
     "releaseTipLabel": "New version",
     "releaseTipBody": "<strong>New version is live.</strong> Get the latest APK on the <a href=\"../indir.html\">Download &amp; releases</a> page.",
-    "releaseTipClose": "Dismiss (don’t show again)"
+    "releaseTipClose": "Dismiss (don’t show again)",
+    "playStoreNoticeLabel": "Important update",
+    "playStoreNoticeBody": "<strong>APK downloads have been permanently disabled.</strong> The app will be released on Google Play soon."
   },
   "hero": {
     "headline": "ATA Chapter In Your Pocket",
@@ -44,7 +46,7 @@
     "cite": "Early access"
   },
   "btn": {
-    "apk": "Download APK",
+    "apk": "Coming soon on Google Play",
     "details": "Details",
     "gotoDownload": "Go to download page"
   },
@@ -160,7 +162,7 @@
     "downloadTitle": "Download — ATA Chapter",
     "downloadDesc": "ATA Chapter — Play Store announcement, releases, changelog",
     "downloadH1": "Releases",
-    "downloadLead": "APK usage is temporarily <strong>disabled</strong>. The app will be available on <strong>Google Play soon</strong>. Previous release notes are listed below.",
+    "downloadLead": "APK downloads are <strong>permanently disabled</strong>. The app will be available on <strong>Google Play soon</strong>. Previous release notes are listed below.",
     "installTitle": "How to install — ATA Chapter",
     "installDesc": "How to install the ATA Chapter APK on Android.",
     "installH1": "How to install",
@@ -175,9 +177,9 @@
     "badgeLatest": "Latest release",
     "versionWord": "Version",
     "downloadApk": "Download APK",
-    "downloadPaused": "APK disabled",
+    "downloadPaused": "Unavailable",
     "playSoonLabel": "Announcement",
-    "playSoonBanner": "<strong>Coming soon on Google Play.</strong> APK distribution is temporarily disabled.",
+    "playSoonBanner": "<strong>APK downloads have been permanently disabled.</strong> The app will be released on Google Play soon.",
     "notesTitle": "Release notes",
     "download": "Download",
     "downloadUnavailable": "Unavailable",

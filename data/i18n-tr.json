@@ -24,7 +24,9 @@
   "home": {
     "releaseTipLabel": "Yeni sürüm",
     "releaseTipBody": "<strong>Yeni sürüm yayında.</strong> Güncel APK için <a href=\"../indir.html\">İndir &amp; sürümler</a> sayfasına git.",
-    "releaseTipClose": "Bildirimi kapat (bir daha gösterme)"
+    "releaseTipClose": "Bildirimi kapat (bir daha gösterme)",
+    "playStoreNoticeLabel": "Önemli duyuru",
+    "playStoreNoticeBody": "<strong>APK indirme kalıcı olarak devre dışı bırakıldı.</strong> Uygulama Play Store'da yakında yayınlanacak."
   },
   "hero": {
     "headline": "ATA Chapter Artık Cebinizde",
@@ -44,7 +46,7 @@
     "cite": "Erken erişim"
   },
   "btn": {
-    "apk": "APK indir",
+    "apk": "Play Store'da yakinda",
     "details": "Detaylar",
     "gotoDownload": "İndir sayfasına git"
   },
@@ -160,7 +162,7 @@
     "downloadTitle": "İndir — ATA Chapter",
     "downloadDesc": "ATA Chapter — Play Store duyurusu, sürümler ve yama notları",
     "downloadH1": "Sürümler",
-    "downloadLead": "APK kullanımı geçici olarak <strong>devre dışı</strong>. Uygulama <strong>Play Store'da yakında</strong> yayınlanacak. Önceki sürüm notları aşağıda.",
+    "downloadLead": "APK indirme <strong>kalıcı olarak devre dışı</strong>. Uygulama <strong>Play Store'da yakında</strong> yayınlanacak. Önceki sürüm notları aşağıda.",
     "installTitle": "Nasıl yüklenir — ATA Chapter",
     "installDesc": "ATA Chapter — Android’e APK ile nasıl yüklenir.",
     "installH1": "Nasıl yüklenir",
@@ -175,9 +177,9 @@
     "badgeLatest": "Güncel sürüm",
     "versionWord": "Sürüm",
     "downloadApk": "APK indir",
-    "downloadPaused": "APK devre dışı",
+    "downloadPaused": "İndirilemez",
     "playSoonLabel": "Duyuru",
-    "playSoonBanner": "<strong>Play Store'da yakında.</strong> APK dağıtımı geçici olarak devre dışı bırakıldı.",
+    "playSoonBanner": "<strong>APK indirme kalıcı olarak devre dışı bırakıldı.</strong> Uygulama Play Store'da yakında yayınlanacak.",
     "notesTitle": "Yama notları (bu sürüm)",
     "download": "İndir",
     "downloadUnavailable": "İndirilemez",
