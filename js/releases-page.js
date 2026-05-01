@@ -75,11 +75,10 @@
       meta.textContent = buildMetaLine(L);
       row.appendChild(badge);
       row.appendChild(meta);
-      const dl = document.createElement("a");
-      dl.className = "btn-dl";
-      dl.href = L.apkFile;
-      dl.setAttribute("download", L.apkDisplayName || "");
-      dl.textContent = t("downloadApk", "APK indir");
+      const dl = document.createElement("span");
+      dl.className = "btn-dl btn-dl--disabled";
+      dl.setAttribute("aria-disabled", "true");
+      dl.textContent = t("downloadPaused", "APK devre disi");
       current.appendChild(row);
       current.appendChild(dl);
       if (L.notes && L.notes.length) {

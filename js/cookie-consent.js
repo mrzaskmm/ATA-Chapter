@@ -1,6 +1,5 @@
 (function () {
-  var KEY = "ata-legal-consent-v2";
-  var EJECT_URL = "https://www.google.com";
+  var KEY = "ata-cookie-consent-v1";
 
   function getLang() {
     var l = document.documentElement.getAttribute("data-lang");
@@ -25,64 +24,36 @@
     } catch (e) {}
   }
 
-  function ejectFromSite() {
-    window.location.replace(EJECT_URL);
-  }
-
   function makeLink(href, text) {
     return '<a href="' + href + '" target="_self">' + text + "</a>";
   }
 
-  function renderGate() {
-    var gate = document.createElement("section");
-    gate.className = "legal-gate";
-    gate.setAttribute("role", "dialog");
-    gate.setAttribute("aria-modal", "true");
-    gate.setAttribute("aria-label", t("Yasal onay", "Legal consent"));
+  function renderBanner() {
+    var banner = document.createElement("aside");
+    banner.className = "cookie-consent";
+    banner.setAttribute("role", "dialog");
+    banner.setAttribute("aria-live", "polite");
+    banner.setAttribute("aria-label", t("Çerez bildirimi", "Cookie notice"));
 
-    gate.innerHTML =
-      '<div class="legal-gate__backdrop"></div>' +
-      '<div class="legal-gate__panel">' +
-      '<h2 class="legal-gate__title">' +
-      t("Devam etmeden önce onay gerekli", "Consent required to continue") +
-      "</h2>" +
-      '<p class="legal-gate__text">' +
+    banner.innerHTML =
+      '<p class="cookie-consent__text">' +
       t(
-        "Siteyi kullanmak için aşağıdaki metinleri okuyup kabul etmelisiniz:",
-        "To use this site, you must read and accept the following:"
+        "Bu site, deneyimi iyileştirmek için çerez ve yerel depolama kullanır. " +
+          makeLink("kullanim-kosullari.html", "Kullanım Koşulları") +
+          " · " +
+          makeLink("gizlilik-politikasi.html", "Gizlilik (site)"),
+        "This site uses cookies and local storage to improve your experience. " +
+          makeLink("kullanim-kosullari.html", "Terms of Use") +
+          " · " +
+          makeLink("gizlilik-politikasi.html", "Privacy (website)")
       ) +
       "</p>" +
-      '<ul class="legal-gate__links">' +
-      "<li>" +
-      makeLink("kullanim-kosullari.html", t("Kullanım Koşulları", "Terms of Use")) +
-      "</li>" +
-      "<li>" +
-      makeLink(
-        "gizlilik-politikasi.html",
-        t("Gizlilik Politikası ve Aydınlatma Metni (site)", "Privacy Policy and Disclosure (website)")
-      ) +
-      "</li>" +
-      "<li>" +
-      makeLink(
-        "uygulama-gizlilik-politikasi.html",
-        t("Uygulama Gizlilik Politikası (APK)", "App privacy policy (APK)")
-      ) +
-      "</li>" +
-      "<li>" +
-      makeLink(
-        "google-play-gizlilik-politikasi.html",
-        t("Google Play gizlilik politikası", "Google Play privacy policy")
-      ) +
-      "</li>" +
-      "<li>" +
       '<button type="button" class="cookie-consent__linkbtn" data-cookie-open>' +
-      t("Çerez Onay Metni", "Cookie Consent Notice") +
+      t("Çerez detaylarını göster", "Show cookie details") +
       "</button>" +
-      "</li>" +
-      "</ul>" +
       '<div class="cookie-consent__details" data-cookie-details hidden>' +
       "<h3>" +
-      t("Çerez Onay Metni", "Cookie Consent Notice") +
+      t("Çerez detayları", "Cookie details") +
       "</h3>" +
       "<ul>" +
       "<li>" +
@@ -105,64 +76,38 @@
       "</li>" +
       "</ul>" +
       "</div>" +
-      '<label class="legal-gate__check">' +
-      '<input type="checkbox" data-legal-check>' +
-      "<span>" +
-      t(
-        "Kullanım Koşulları, site, APK ve Google Play uygulama gizlilik politikaları ile Çerez Onay Metni'ni okudum, kabul ediyorum.",
-        "I have read and agree to the Terms of Use, the website, APK, and Google Play app privacy policies, and the Cookie Consent Notice."
-      ) +
-      "</span>" +
-      "</label>" +
-      '<p class="legal-gate__warn">' +
-      t(
-        "Bu sitedeki içerik, fikir, tasarım ve uygulama izinsiz kopyalanamaz, taklit edilemez, kötüye kullanılamaz. İhlal halinde hukuki işlem uygulanır.",
-        "The content, ideas, design, and application on this site may not be copied, imitated, or misused without permission. Legal action will be taken in case of violations."
-      ) +
-      "</p>" +
-      '<div class="legal-gate__actions">' +
-      '<button type="button" class="btn btn--primary cookie-consent__btn" data-cookie-accept disabled>' +
-      t("Kabul Et ve Devam Et", "Accept and Continue") +
+      '<div class="cookie-consent__actions">' +
+      '<button type="button" class="btn btn--primary cookie-consent__btn" data-cookie-accept>' +
+      t("Kabul Et", "Accept") +
       "</button>" +
       '<button type="button" class="btn btn--ghost cookie-consent__btn" data-cookie-reject>' +
-      t("Kabul Etmiyorum", "I Do Not Accept") +
+      t("Reddet", "Reject") +
       "</button>" +
-      "</div>" +
       "</div>";
 
-    gate.addEventListener("click", function (e) {
+    banner.addEventListener("click", function (e) {
       var toggle = e.target.closest("[data-cookie-open]");
       if (toggle) {
-        var details = gate.querySelector("[data-cookie-details]");
+        var details = banner.querySelector("[data-cookie-details]");
         if (details) details.hidden = !details.hidden;
       }
       var rejectBtn = e.target.closest("[data-cookie-reject]");
       if (rejectBtn) {
         writeConsent("rejected");
-        ejectFromSite();
+        banner.remove();
       }
       var acceptBtn = e.target.closest("[data-cookie-accept]");
-      if (acceptBtn && !acceptBtn.disabled) {
+      if (acceptBtn) {
         writeConsent("accepted");
-        gate.remove();
+        banner.remove();
       }
     });
 
-    var legalCheck = gate.querySelector("[data-legal-check]");
-    var acceptBtn = gate.querySelector("[data-cookie-accept]");
-    if (legalCheck && acceptBtn) {
-      legalCheck.addEventListener("change", function () {
-        acceptBtn.disabled = !legalCheck.checked;
-      });
-    }
-
-    document.body.appendChild(gate);
+    document.body.appendChild(banner);
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    var consent = readConsent();
-    if (consent === "accepted") return;
-    // "rejected" kalıcı ban değildir; sonraki girişte tekrar onay şansı verilir.
-    renderGate();
+    if (readConsent()) return;
+    renderBanner();
   });
 })();

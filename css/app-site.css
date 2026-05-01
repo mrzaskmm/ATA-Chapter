@@ -1460,6 +1460,69 @@ body.is-app-nav-open {
   color: var(--accent);
 }
 
+.upcoming-release-banner--playsoon {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.upcoming-release-banner--playsoon::before,
+.upcoming-release-banner--playsoon::after {
+  content: "";
+  position: absolute;
+  inset: -35%;
+  pointer-events: none;
+  z-index: -1;
+  border-radius: 999px;
+}
+
+.upcoming-release-banner--playsoon::before {
+  background: radial-gradient(circle at center, rgba(255, 94, 159, 0.38) 0%, rgba(255, 94, 159, 0.18) 36%, rgba(255, 94, 159, 0) 72%);
+  animation: playsoon-heartbeat 1.6s ease-in-out infinite;
+}
+
+.upcoming-release-banner--playsoon::after {
+  background: radial-gradient(circle at center, rgba(83, 176, 255, 0.34) 0%, rgba(83, 176, 255, 0.12) 42%, rgba(83, 176, 255, 0) 74%);
+  animation: playsoon-heartbeat 1.6s ease-in-out infinite 0.8s;
+}
+
+@keyframes playsoon-heartbeat {
+  0%,
+  100% {
+    transform: scale(0.92);
+    opacity: 0.46;
+    filter: blur(12px);
+  }
+  20% {
+    transform: scale(1.06);
+    opacity: 0.95;
+    filter: blur(9px);
+  }
+  36% {
+    transform: scale(0.96);
+    opacity: 0.68;
+    filter: blur(12px);
+  }
+  54% {
+    transform: scale(1.14);
+    opacity: 1;
+    filter: blur(8px);
+  }
+  72% {
+    transform: scale(1);
+    opacity: 0.55;
+    filter: blur(11px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .upcoming-release-banner--playsoon::before,
+  .upcoming-release-banner--playsoon::after {
+    animation: none;
+    opacity: 0.55;
+  }
+}
+
 [data-theme="dark"] .upcoming-release-banner {
   border-color: rgba(10, 132, 255, 0.35);
   background: linear-gradient(135deg, rgba(10, 132, 255, 0.14) 0%, rgba(10, 132, 255, 0.05) 100%);
