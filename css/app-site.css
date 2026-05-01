@@ -1039,6 +1039,35 @@ body.is-app-nav-open {
   justify-content: flex-start;
 }
 
+@media (max-width: 560px) {
+  .landing-hero h1 {
+    font-size: clamp(2rem, 8.8vw, 2.35rem);
+    line-height: 1.12;
+  }
+
+  .landing-hero .lead {
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+
+  .landing-hero .btn-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .landing-hero .btn-row .btn {
+    width: 100%;
+    min-width: 0;
+    padding: 0.56rem 0.5rem;
+    font-size: 0.82rem;
+    line-height: 1.25;
+    text-align: center;
+  }
+}
+
 .landing-hero__grid {
   position: relative;
   z-index: 1;
