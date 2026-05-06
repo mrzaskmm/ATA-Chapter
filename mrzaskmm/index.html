@@ -10,6 +10,9 @@
   </head>
   <body>
     <div class="bg" aria-hidden="true">
+      <video class="bg__video" autoplay muted loop playsinline preload="metadata">
+        <source src="./assets/bg.mp4" type="video/mp4" />
+      </video>
       <canvas id="fx" width="16" height="16"></canvas>
       <div class="grain"></div>
       <div class="vignette"></div>
@@ -19,7 +22,9 @@
       <header class="hero">
         <div class="pfp" aria-hidden="true">
           <span class="pfp__ring"></span>
-          <span class="pfp__core"></span>
+          <span class="pfp__core">
+            <img class="pfp__img" src="./assets/pfp.png" alt="" width="54" height="54" decoding="async" />
+          </span>
         </div>
         <div class="hero__text">
           <h1 class="name">
