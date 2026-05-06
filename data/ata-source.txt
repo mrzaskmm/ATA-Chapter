@@ -1324,8 +1324,8 @@ class _AtaChapterPageState extends State<AtaChapterPage> with TickerProviderStat
                       padding: const EdgeInsets.all(16),
                       child: Text(
                         widget.settings.lang == 'tr'
-                            ? 'Geliştirici\nYusuf Mirza Sökmen\n\nMentor\nMahmut Abdurrahman Cığşar\n\nTest Ekibi\nMustafa Değirmencioğlu · Murat Yılmaz · Sena Yılmaz'
-                            : 'Developer\nYusuf Mirza Sökmen\n\nMentor\nMahmut Abdurrahman Cığşar\n\nTest Team\nMustafa Değirmencioğlu · Murat Yılmaz · Sena Yılmaz',
+                            ? 'Geliştirici\nYusuf Mirza Sökmen\n\nMentor\nMahmut Abdurrahman Cığşar\n\nTest Ekibi\nMustafa Değirmencioğlu · Murat Yılmaz · Sena Yılmaz · Ali Kavası'
+                            : 'Developer\nYusuf Mirza Sökmen\n\nMentor\nMahmut Abdurrahman Cığşar\n\nTest Team\nMustafa Değirmencioğlu · Murat Yılmaz · Sena Yılmaz · Ali Kavası',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontSize: 10,
