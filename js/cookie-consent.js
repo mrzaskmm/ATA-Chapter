@@ -39,13 +39,13 @@
       '<p class="cookie-consent__text">' +
       t(
         "Bu site, deneyimi iyileştirmek için çerez ve yerel depolama kullanır. " +
-          makeLink("kullanim-kosullari.html", "Kullanım Koşulları") +
+          makeLink("/kullanim-kosullari/", "Kullanım Koşulları") +
           " · " +
-          makeLink("gizlilik-politikasi.html", "Gizlilik (site)"),
+          makeLink("/gizlilik-politikasi/", "Gizlilik (site)"),
         "This site uses cookies and local storage to improve your experience. " +
-          makeLink("kullanim-kosullari.html", "Terms of Use") +
+          makeLink("/kullanim-kosullari/", "Terms of Use") +
           " · " +
-          makeLink("gizlilik-politikasi.html", "Privacy (website)")
+          makeLink("/gizlilik-politikasi/", "Privacy (website)")
       ) +
       "</p>" +
       '<button type="button" class="cookie-consent__linkbtn" data-cookie-open>' +

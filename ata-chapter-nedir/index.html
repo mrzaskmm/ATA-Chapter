@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ATA Chapter nedir? Uçak bakım dokümantasyonunda ATA chapter numaralandırması, hiyerarşi, kullanım senaryoları ve örnekler.">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>ATA Chapter Nedir? — ATA Chapter</title>
+  <script>
+    (function () {
+      try {
+        var h = location.hostname;
+        if (h && h !== "www.atachapter.com" && h !== "atachapter.com" && h !== "localhost" && h.indexOf("127.") !== 0) {
+          location.replace("https://www.atachapter.com" + location.pathname + location.search + location.hash);
+          return;
+        }
+      } catch (e) {}
+      try {
+        var tRaw = localStorage.getItem("ata-theme");
+        var t = tRaw === "light" || tRaw === "dark" ? tRaw : "dark";
+        document.documentElement.setAttribute("data-theme", t);
+        var lRaw = localStorage.getItem("ata-lang");
+        var lang = lRaw === "en" || lRaw === "tr" ? lRaw : "en";
+        document.documentElement.setAttribute("data-lang", lang);
+        document.documentElement.setAttribute("lang", lang === "en" ? "en" : "tr");
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="icon" type="image/png" href="../images/app-icon.png">
+  <link rel="canonical" href="https://www.atachapter.com/ata-chapter-nedir/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/app-site.css?v=123">
+</head>
+<body data-page="ata-what">
+  <div class="app-shell">
+    <header class="app-top">
+      <div class="container app-top__inner">
+        <a class="app-brand" href="../anasayfa/">
+          <span class="app-brand__mark"><img src="../images/app-icon.png" width="32" height="32" alt=""></span>
+          ATA Chapter
+        </a>
+        <div class="app-nav-panel">
+          <nav id="site-primary-nav" class="app-menu" aria-label="Site">
+            <a href="../anasayfa/" data-i18n="nav.home">Ana sayfa</a>
+            <a href="../ata-chapter-nedir/" aria-current="page">ATA Chapter Nedir?</a>
+            <a href="../anasayfa/#ozellikler" data-i18n="nav.features">Özellikler</a>
+            <a href="../chapterlar/" data-i18n="nav.chapters">Chapterlar</a>
+            <a href="../indir/" data-i18n="nav.download" hidden>İndir</a>
+            <a href="../nasil-yuklenir/" data-i18n="nav.how">Kurulum</a>
+            <a href="../test-ekibine-katilma/" data-i18n="nav.testJoin">Test Ekibine Katılma</a>
+            <a href="../anasayfa/#credits" data-i18n="nav.team">Ekip</a>
+          </nav>
+        </div>
+        <div class="app-top__end">
+          <button type="button" class="app-nav-toggle" aria-expanded="false" aria-controls="site-primary-nav" data-i18n-aria-label="nav.menuOpen">
+            <span class="app-nav-toggle__bars" aria-hidden="true"></span>
+          </button>
+          <div class="app-controls" role="toolbar" aria-label="Dil ve tema">
+            <div class="lang-seg" role="group" aria-label="Dil">
+              <button type="button" data-lang-btn="tr" aria-pressed="false">TR</button>
+              <button type="button" data-lang-btn="en" aria-pressed="true">EN</button>
+            </div>
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Tema">
+              <span class="theme-toggle__moon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+              </span>
+              <span class="theme-toggle__sun" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="app-nav-backdrop" data-app-nav-backdrop hidden aria-hidden="true"></div>
+    </header>
+
+    <main class="app-content container">
+      <div class="page-intro page-intro--hero">
+        <h1>ATA Chapter nedir?</h1>
+        <p class="lead">
+          “ATA chapter” kavramı; uçak sistemlerini standart bir yapıda sınıflandırarak bakım dokümantasyonunda hızlı yön bulmayı sağlar.
+          Bu sayfa, konuyu <strong>temelden ileri seviyeye</strong> anlaşılır şekilde açıklar.
+        </p>
+      </div>
+
+      <article class="prose reveal">
+        <h2>1) ATA Chapter: tanım</h2>
+        <p>
+          <strong>ATA Chapter</strong>, uçakla ilgili sistemleri konu başlıklarına ayıran <strong>standart numaralandırma</strong> yaklaşımıdır.
+          Dokümantasyonda “chapter” (bölüm) denilen bu başlıklar, genelde <strong>0–99</strong> aralığında kodlanır ve her kod bir sistem ailesine işaret eder.
+        </p>
+        <p>
+          Bu standart yaklaşımın değeri şuradan gelir: Doküman seti büyüdükçe “arama” ile doğru yeri bulmak zorlaşır.
+          Chapter numarası ise bir “indeks” gibi çalışır: önce sistemi seçer, sonra o sistemin alt başlıklarına (section/subject/task) inersin.
+        </p>
+
+        <h2>2) Neden kullanılır?</h2>
+        <ul>
+          <li><strong>Hızlı yön bulma:</strong> Arızayı/sistemi tespit edip ilgili chapter’a gidersin.</li>
+          <li><strong>Ekip içi ortak dil:</strong> “27’ye bak”, “28 altında”, “24 tarafı” gibi kısa iletişimle anlaşılır.</li>
+          <li><strong>Dokümanlar arası tutarlılık:</strong> Prosedür (AMM) ile parça kataloğu (IPC) benzer chapter çatısı altında toplanabilir.</li>
+        </ul>
+
+        <h2>3) Hiyerarşi: Chapter → Section → Subject/Task</h2>
+        <p>
+          Birçok bakım dokümanında yapı kabaca şu şekilde katmanlanır:
+        </p>
+        <ul>
+          <li><strong>Chapter</strong>: ana sistem sınıfı (ör. 27)</li>
+          <li><strong>Section</strong>: chapter içindeki alt alan (ör. belirli alt sistem)</li>
+          <li><strong>Subject / Task</strong>: en detay seviye; prosedür, kontrol veya arıza giderme adımları</li>
+        </ul>
+        <p class="note">
+          Bu site/app’in amacı, en azından chapter seviyesinde hızlı “harita” sağlamaktır. Nihai doğrulama için her zaman üretici/operatör dokümantasyonuna bakılmalıdır.
+        </p>
+
+        <h2>4) Örnekler: sahada sık duyulan chapter’lar</h2>
+        <p>Aşağıdaki örnekler, chapter numarasının pratikte hangi konularla ilişkilendirildiğini anlamaya yardımcı olur:</p>
+        <ul>
+          <li><strong>ATA 05</strong>: Time Limits / Maintenance Checks (kontrol aralıkları, limitler)</li>
+          <li><strong>ATA 21</strong>: Air Conditioning (iklimlendirme / ECS)</li>
+          <li><strong>ATA 24</strong>: Electrical Power (elektrik güç)</li>
+          <li><strong>ATA 27</strong>: Flight Controls (uçuş kumandaları)</li>
+          <li><strong>ATA 28</strong>: Fuel (yakıt)</li>
+          <li><strong>ATA 29</strong>: Hydraulic Power (hidrolik)</li>
+          <li><strong>ATA 32</strong>: Landing Gear (iniş takımı)</li>
+          <li><strong>ATA 36</strong>: Pneumatic (pnömatik / bleed ilişkili hatlar)</li>
+        </ul>
+
+        <h2>5) Hangi dokümanlarda görürsün?</h2>
+        <p>ATA chapter yaklaşımı tek bir doküman değil; bir sınıflandırma mantığıdır. Sık görülen doküman tipleri:</p>
+        <ul>
+          <li><strong>AMM</strong>: Aircraft Maintenance Manual</li>
+          <li><strong>IPC</strong>: Illustrated Parts Catalog</li>
+          <li><strong>TSM</strong>: Troubleshooting Manual</li>
+          <li><strong>WDM/SDM</strong>: Wiring/System Diagrams</li>
+        </ul>
+
+        <h2>6) Bu sitede nasıl kullanmalısın?</h2>
+        <ol>
+          <li>Konuyu “hangi sistem?” diye düşün, ilgili chapter’ı seç.</li>
+          <li>Sonra kendi dokümanında aynı chapter altında daha alt kırılımlara in.</li>
+          <li>Tereddüt varsa dokümanın “Contents/Index” kısmını kontrol et.</li>
+        </ol>
+
+        <h2>7) Düzeltme / katkı</h2>
+        <p>
+          Başlıklarda hata veya eksik görürsen <a href="../iletisim/">İletişim</a> sayfasından bildir.
+          Böylece listeyi daha tutarlı ve faydalı hale getiririz.
+        </p>
+
+        <div class="btn-row">
+          <a class="btn btn--ghost" href="../chapterlar/">Chapter listesine git</a>
+          <a class="btn btn--ghost" href="../hakkimizda/">Hakkımızda</a>
+        </div>
+      </article>
+    </main>
+
+    <footer class="app-footer">
+      <div class="container">
+        <p class="app-footer__line">© 2026 ATA Chapter · <a href="../hakkimizda/">Hakkımızda</a> · <a href="../kullanim-kosullari/">Kullanım Koşulları</a> · <a href="../gizlilik-politikasi/">Gizlilik (site)</a> · <a href="../google-play-gizlilik-politikasi/">Google Play gizliliği</a> · <a href="../uygulama-gizlilik-politikasi/">Gizlilik (APK)</a> · İzinsiz kopyalama/taklit yasaktır; ihlalde hukuki işlem uygulanır.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="../js/site-ui.js?v=36" defer></script>
+  <script src="../js/app-motion.js?v=28" defer></script>
+  <script src="../js/cookie-consent.js?v=6" defer></script>
+</body>
+</html>
+
