@@ -4716,3 +4716,7 @@ body.launch-announcement-open {
   pointer-events: none;
   contain: strict;
 }
+
+.launch-announcement__burst {
+  z-index: 2050;
+}
