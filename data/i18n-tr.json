@@ -67,6 +67,14 @@
     "soon": "Yakında",
     "playReleaseDate": "20 Mayısta Google Play Store'da"
   },
+  "launch": {
+    "eyebrow": "Duyuru",
+    "title": "20 Mayıs'ta Google Play'de Buluşuyoruz!",
+    "body": "<p>Aksilik olmadığı sürece <strong>ATA Chapter</strong>, <strong>20 Mayıs</strong> tarihinde <strong>Google Play Store</strong>'da yayında olacak.</p><p>Bu aşamaya gelene kadar projemizi destekleyen herkese <strong>içtenlikle teşekkür ederim</strong>. İlk günden bu yana inanan, deneyen ve geri bildirim gönderen herkesin emeği bu uygulamada var.</p><p>Projeye <strong>maddi destek</strong> sağlamak isteyenler, <a href=\"../iletisim/\">iletişim sayfasından</a> doğrudan <strong>Yusuf Mirza Sökmen</strong>'e ulaşabilir.</p>",
+    "dontShow": "Bu duyuruyu bir daha gösterme",
+    "ok": "Anladım",
+    "close": "Duyuruyu kapat"
+  },
   "nedir": {
     "h": "Ne işe yarar?",
     "p": "ATA (Air Transport Association) chapter’ları, uçak sistemlerinin ve dokümantasyonun standart numaralandırmasıdır (ör. belirli sistemler için sabit chapter kodları). Bakım, planlama veya teknik bakarken doğru chapter’a hızlıca ulaşmak önemlidir; bu uygulama da tam bunun için: <strong>telefonu açıp ilgili chapter bilgisine pratik şekilde erişmeni</strong> kolaylaştırır."

@@ -49,7 +49,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/app-site.css?v=128">
+  <link rel="stylesheet" href="../css/app-site.css?v=129">
 </head>
 <body data-page="index" data-site-root="../">
   <a class="visually-hidden" href="#icerik" data-i18n="skip">İçeriğe geç</a>
@@ -105,7 +105,7 @@
               <p class="lead" data-i18n-html="hero.lead"></p>
             </div>
             <div class="btn-row">
-              <span class="btn btn--primary btn--static" data-i18n="btn.apk">20 Mayısta Google Play Store'da</span>
+              <span class="btn btn--primary btn--static btn--launch" data-i18n="btn.apk">20 Mayısta Google Play Store'da</span>
               <a class="btn btn--ghost" href="#ozellikler" data-i18n="nav.features">Özellikler</a>
               <a class="btn btn--ghost" href="#nedir" data-i18n="btn.details">Detaylar</a>
             </div>
@@ -326,6 +326,58 @@
     </footer>
   </div>
 
+  <div
+    id="launch-announcement"
+    class="launch-announcement"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="launch-announcement-title"
+    aria-describedby="launch-announcement-body"
+    hidden
+  >
+    <div class="launch-announcement__backdrop" data-launch-close tabindex="-1" aria-hidden="true"></div>
+    <div class="launch-announcement__panel" role="document">
+      <button
+        type="button"
+        class="launch-announcement__close"
+        data-launch-close
+        data-i18n-aria-label="launch.close"
+        aria-label="Kapat"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <p class="launch-announcement__eyebrow" data-i18n="launch.eyebrow">Duyuru</p>
+      <h2 id="launch-announcement-title" class="launch-announcement__title" data-i18n="launch.title">
+        20 Mayıs'ta Google Play'de Buluşuyoruz!
+      </h2>
+      <div id="launch-announcement-body" class="launch-announcement__body" data-i18n-html="launch.body">
+        <p>
+          Aksilik olmadığı sürece <strong>ATA Chapter</strong>, <strong>20 Mayıs</strong> tarihinde
+          <strong>Google Play Store</strong>'da yayında olacak.
+        </p>
+        <p>
+          Bu aşamaya gelene kadar projemizi destekleyen herkese
+          <strong>içtenlikle teşekkür ederim</strong>. Yolculuğun ilk gününden bugüne kadar
+          inanan, deneyen ve geri bildirim gönderen herkesin emeği bu uygulamada var.
+        </p>
+        <p>
+          Projeye <strong>maddi destek</strong> sağlamak isteyenler,
+          <a href="../iletisim/">iletişim sayfasından</a> doğrudan
+          <strong>Yusuf Mirza Sökmen</strong>'e ulaşabilir.
+        </p>
+      </div>
+      <label class="launch-announcement__dont-show">
+        <input type="checkbox" data-launch-dont-show>
+        <span data-i18n="launch.dontShow">Bu duyuruyu bir daha gösterme</span>
+      </label>
+      <div class="launch-announcement__actions">
+        <button type="button" class="btn btn--primary launch-announcement__cta" data-launch-close data-i18n="launch.ok">
+          Anladım
+        </button>
+      </div>
+    </div>
+  </div>
+
   <script defer src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script defer src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
   <script src="../js/firebase-config.js?v=8" defer></script>
@@ -334,5 +386,6 @@
   <script src="../js/landing-page.js?v=31" defer></script>
   <script src="../js/feedback.js?v=25" defer></script>
   <script src="../js/cookie-consent.js?v=6" defer></script>
+  <script src="../js/launch-announcement.js?v=1" defer></script>
 </body>
 </html>

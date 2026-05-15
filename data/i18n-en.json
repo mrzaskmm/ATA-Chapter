@@ -67,6 +67,14 @@
     "soon": "Soon",
     "playReleaseDate": "On Google Play May 20"
   },
+  "launch": {
+    "eyebrow": "Announcement",
+    "title": "See you on Google Play on May 20!",
+    "body": "<p>Unless something unexpected happens, <strong>ATA Chapter</strong> will be live on the <strong>Google Play Store</strong> on <strong>May 20</strong>.</p><p>I sincerely <strong>thank everyone</strong> who has supported the project to reach this point. The trust, testing and feedback from day one are reflected in this app.</p><p>If you would like to provide <strong>financial support</strong>, you can reach <strong>Yusuf Mirza Sökmen</strong> directly through the <a href=\"../iletisim/\">contact page</a>.</p>",
+    "dontShow": "Don't show this announcement again",
+    "ok": "Got it",
+    "close": "Close announcement"
+  },
   "nedir": {
     "h": "What does it do?",
     "p": "ATA (Air Transport Association) chapters are the standard numbering for aircraft systems and documentation. This app makes it easier to <strong>open your phone and reach the right chapter information</strong> for maintenance, planning, or technical work."
