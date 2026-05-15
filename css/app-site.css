@@ -645,13 +645,12 @@ body.is-app-nav-open {
 }
 
 .hero-app-store .store-badge-wrap {
-  align-items: flex-start;
+  align-items: center;
 }
 
 .hero-app-store .store-badge-label {
-  width: auto;
-  text-align: left;
-  align-self: flex-start;
+  width: 100%;
+  text-align: center;
 }
 
 .btn--ghost {
