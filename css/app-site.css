@@ -621,6 +621,39 @@ body.is-app-nav-open {
   transform: translateY(0);
 }
 
+.btn--static {
+  pointer-events: none;
+  cursor: default;
+  user-select: none;
+}
+
+.btn--static:hover,
+.btn--static:active {
+  transform: none;
+  background: var(--accent);
+  box-shadow: 0 4px 14px rgba(11, 107, 203, 0.28);
+}
+
+.hero-app-store {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.landing-hero .hero-app-store {
+  width: 100%;
+}
+
+.hero-app-store .store-badge-wrap {
+  align-items: flex-start;
+}
+
+.hero-app-store .store-badge-label {
+  width: auto;
+  text-align: left;
+  align-self: flex-start;
+}
+
 .btn--ghost {
   background: rgba(255, 255, 255, 0.7);
   border-color: var(--border-strong);
@@ -769,6 +802,16 @@ body.is-app-nav-open {
   flex-direction: column;
   align-items: center;
   gap: 0.35rem;
+}
+
+.btn-row .store-badge-wrap--hero {
+  align-items: flex-start;
+}
+
+.store-badge-label--date {
+  text-transform: none;
+  letter-spacing: 0.02em;
+  font-size: 0.8rem;
 }
 
 .store-badge-label {

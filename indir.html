@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ATA Chapter — APK indir, sürümler ve yama notları">
+  <meta name="description" content="ATA Chapter — Google Play yayın duyurusu">
   <meta name="theme-color" content="#0a0a0a">
   <title>İndir — ATA Chapter</title>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9236434613875809" crossorigin="anonymous"></script>
@@ -38,7 +38,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/app-site.css?v=123">
+  <link rel="stylesheet" href="css/app-site.css?v=124">
 </head>
 <body data-page="download">
   <div class="app-shell">
@@ -55,8 +55,6 @@
             <a href="anasayfa/#ozellikler" data-i18n="nav.features">Özellikler</a>
             <a href="chapterlar.html" data-i18n="nav.chapters">Chapterlar</a>
             <a href="indir.html" aria-current="page" data-i18n="nav.download" hidden>İndir</a>
-            <a href="nasil-yuklenir.html" data-i18n="nav.how">Nasıl yüklenir</a>
-            <a href="test-ekibine-katilma.html" data-i18n="nav.testJoin">Test Ekibine Katılma</a>
             <a href="anasayfa/#credits" data-i18n="nav.team">Ekip</a>
             <a href="anasayfa/#geri-bildirim" data-i18n="nav.feedback">Geri bildirim</a>
           </nav>
@@ -86,25 +84,21 @@
 
     <main class="app-content container">
       <div class="page-intro page-intro--hero">
-        <h1 data-i18n="page.downloadH1">İndir &amp; sürümler</h1>
+        <h1 data-i18n="page.downloadH1">İndir</h1>
         <p class="lead" data-i18n-html="page.downloadLead">
-          Uygulama şu an <strong>erken erişim</strong>; güncel paket bu sayfadan APK olarak indirilir.
+          Uygulama <strong>Google Play</strong> üzerinden yayınlanacak. APK dağıtımı kalıcı olarak devre dışı bırakılmıştır.
         </p>
       </div>
-      <section class="upcoming-release-banner upcoming-release-banner--tip upcoming-release-banner--playsoon reveal" aria-live="polite">
-        <p class="upcoming-release-banner__label" data-i18n="releases.playSoonLabel">Duyuru</p>
-        <p class="upcoming-release-banner__body" data-i18n-html="releases.playSoonBanner">
-          <strong>Play Store'da yakında.</strong> APK dağıtımı geçici olarak devre dışı bırakıldı.
-        </p>
-      </section>
 
-      <p id="releases-error" class="alert-soft" role="alert" hidden></p>
-
-      <div class="releases-two-stack reveal">
-        <div id="release-box-latest" class="releases-two-stack__slot"></div>
-        <div id="release-box-older" class="releases-two-stack__slot" hidden></div>
+      <div class="store-panel reveal" aria-labelledby="download-store-heading">
+        <h2 id="download-store-heading" class="visually-hidden" data-i18n="store.hiddenTitle">Mağaza yayını</h2>
+        <div class="store-badges">
+          <div class="store-badge-wrap">
+            <img class="store-badge" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="48" data-i18n-src="store.gpBadgeSrc" data-i18n-alt="store.gpAlt" alt="" loading="lazy" decoding="async">
+            <span class="store-badge-label store-badge-label--date" data-i18n="store.playReleaseDate">20 Mayısta Google Play Store'da</span>
+          </div>
+        </div>
       </div>
-
     </main>
 
     <footer class="app-footer">
@@ -116,7 +110,6 @@
 
   <script src="js/site-ui.js?v=36" defer></script>
   <script src="js/app-motion.js?v=26" defer></script>
-  <script src="js/releases-page.js?v=5" defer></script>
   <script src="js/cookie-consent.js?v=6" defer></script>
 </body>
 </html>

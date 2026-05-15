@@ -90,6 +90,24 @@
     return [primary.href, legacy.href];
   }
 
+  function appStoreBadgeSrc(theme, dict) {
+    if (!dict || !dict.store) return null;
+    const key = theme === "dark" ? "asBadgeSrcDark" : "asBadgeSrcLight";
+    const themed = dict.store[key];
+    if (themed) return String(themed);
+    return dict.store.asBadgeSrc ? String(dict.store.asBadgeSrc) : null;
+  }
+
+  function syncAppStoreBadges() {
+    const theme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+    const dict = window.__ATA_I18N_DICT__;
+    const src = appStoreBadgeSrc(theme, dict);
+    if (!src) return;
+    document.querySelectorAll("[data-app-store-badge]").forEach((img) => {
+      img.setAttribute("src", src);
+    });
+  }
+
   function syncHeroScreens() {
     const theme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
     const lang = document.documentElement.getAttribute("data-lang") === "en" ? "en" : "tr";
@@ -118,6 +136,7 @@
     document.documentElement.setAttribute("data-theme", theme);
     localStorage.setItem(THEME_KEY, theme);
     syncHeroScreens();
+    syncAppStoreBadges();
     const meta = document.querySelector('meta[name="theme-color"]');
     if (meta) {
       meta.setAttribute("content", theme === "dark" ? "#0a0a0a" : "#e4eef8");
@@ -201,6 +220,7 @@
       if (desc && dict.meta.description) desc.setAttribute("content", dict.meta.description);
     }
     applyPageMeta(dict);
+    syncAppStoreBadges();
     window.__ATA_I18N_RELEASES = dict.releases || {};
   }
 
@@ -359,6 +379,7 @@
       window.__ATA_I18N_DICT__ = window.__ATA_I18N_DICT__ || {};
       pushAppBridgePrefs();
       syncHeroScreens();
+      syncAppStoreBadges();
     }
     window.dispatchEvent(new CustomEvent("ata-ready", { detail: { lang } }));
   }

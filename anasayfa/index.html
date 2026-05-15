@@ -49,7 +49,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/app-site.css?v=122">
+  <link rel="stylesheet" href="../css/app-site.css?v=127">
 </head>
 <body data-page="index" data-site-root="../">
   <a class="visually-hidden" href="#icerik" data-i18n="skip">İçeriğe geç</a>
@@ -68,8 +68,6 @@
             <a href="#ozellikler" data-i18n="nav.features">Özellikler</a>
             <a href="../chapterlar/" data-i18n="nav.chapters">Chapterlar</a>
             <a href="../indir/" data-i18n="nav.download" hidden>İndir</a>
-            <a href="../nasil-yuklenir/" data-i18n="nav.how">Kurulum</a>
-            <a href="../test-ekibine-katilma/" data-i18n="nav.testJoin">Test Ekibine Katılma</a>
             <a href="#credits" data-i18n="nav.team">Ekip</a>
             <a href="#geri-bildirim" data-i18n="nav.feedback">Geri bildirim</a>
           </nav>
@@ -107,21 +105,16 @@
               <p class="lead" data-i18n-html="hero.lead"></p>
             </div>
             <div class="btn-row">
-              <a class="btn btn--primary" href="../test-ekibine-katilma/" data-ata-apk-fly="1" data-i18n="btn.apk">Play Store'da yakında</a>
+              <span class="btn btn--primary btn--static" data-i18n="btn.apk">20 Mayısta Google Play Store'da</span>
               <a class="btn btn--ghost" href="#ozellikler" data-i18n="nav.features">Özellikler</a>
               <a class="btn btn--ghost" href="#nedir" data-i18n="btn.details">Detaylar</a>
             </div>
-            <section class="upcoming-release-banner upcoming-release-banner--alpha reveal" aria-live="polite">
-              <p class="upcoming-release-banner__label" data-i18n="home.alphaTestLabel">Alpha test ekibi çağrısı</p>
-              <p class="upcoming-release-banner__body" data-i18n-html="home.alphaTestBody">
-                Uygulama şu an Play Store'da <strong>alpha</strong> sürümünde. Bir üst aşamaya geçmek için 20 kişilik test ekibi gerekiyor.
-                Katılmak isteyenler <a href="../iletisim/">İletişim</a> sayfasından ad soyad ve Play Store e-posta adresini göndererek başvurabilir.
-              </p>
-              <ul class="changelog-list">
-                <li data-i18n="home.alphaReq1">Android 7.0 ve üzeri bir cihaza sahip olmanız gerekir.</li>
-                <li data-i18n="home.alphaReq2">Test sırasında karşılaşılan hata/aksaklıkları geri bildirim olarak iletebilmeniz gerekir.</li>
-              </ul>
-            </section>
+            <div class="hero-app-store" aria-label="App Store">
+              <div class="store-badge-wrap">
+                <img class="store-badge store-badge--apple" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1276560000" height="40" data-app-store-badge data-i18n-alt="store.asAlt" alt="" loading="lazy" decoding="async">
+                <span class="store-badge-label" data-i18n="store.soon">Yakında</span>
+              </div>
+            </div>
             <aside id="home-release-callout" class="home-release-callout" role="status" hidden>
               <button
                 type="button"
@@ -135,20 +128,6 @@
               <p class="home-release-callout__label" data-i18n="home.releaseTipLabel">Yeni sürüm</p>
               <p class="home-release-callout__body" data-i18n-html="home.releaseTipBody"></p>
             </aside>
-            <div class="store-panel store-panel--compact" aria-labelledby="store-heading">
-              <h2 id="store-heading" class="visually-hidden" data-i18n="store.hiddenTitle">Mağaza yayını</h2>
-              <p class="store-panel__copy" data-i18n-html="store.copy"></p>
-              <div class="store-badges">
-                <div class="store-badge-wrap">
-                  <img class="store-badge" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="48" data-i18n-src="store.gpBadgeSrc" data-i18n-alt="store.gpAlt" alt="" loading="lazy" decoding="async">
-                  <span class="store-badge-label" data-i18n="store.soon">Yakında</span>
-                </div>
-                <div class="store-badge-wrap">
-                  <img class="store-badge store-badge--apple" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1276560000" height="40" data-i18n-src="store.asBadgeSrc" data-i18n-alt="store.asAlt" alt="" loading="lazy" decoding="async">
-                  <span class="store-badge-label" data-i18n="store.soon">Yakında</span>
-                </div>
-              </div>
-            </div>
           </div>
           <div class="landing-hero__visual" aria-hidden="true">
             <div class="landing-hero__visual-scene">
@@ -252,6 +231,8 @@
             <dd data-i18n="credits.mentorName">Mahmut Abdurrahman Cığşar</dd>
             <dt data-i18n="credits.test">Test ekibi</dt>
             <dd data-i18n="credits.testNames">Mustafa Değirmencioğlu · Murat Yılmaz · Sena Yılmaz · Ali Kavas</dd>
+            <dt data-i18n="credits.contact">İletişim</dt>
+            <dd><a href="../iletisim/" data-i18n="credits.contactLink">İletişim sayfası</a></dd>
           </dl>
         </div>
       </section>
@@ -348,7 +329,7 @@
   <script defer src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script defer src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
   <script src="../js/firebase-config.js?v=8" defer></script>
-  <script src="../js/site-ui.js?v=36" defer></script>
+  <script src="../js/site-ui.js?v=37" defer></script>
   <script src="../js/app-motion.js?v=28" defer></script>
   <script src="../js/landing-page.js?v=31" defer></script>
   <script src="../js/feedback.js?v=25" defer></script>

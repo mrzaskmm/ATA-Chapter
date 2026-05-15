@@ -51,7 +51,7 @@
     "cite": "Early access"
   },
   "btn": {
-    "apk": "Coming soon on Google Play",
+    "apk": "On Google Play May 20",
     "details": "Details",
     "gotoDownload": "Go to download page"
   },
@@ -62,7 +62,10 @@
     "asAlt": "Coming soon on the App Store",
     "gpBadgeSrc": "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png",
     "asBadgeSrc": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1276560000",
-    "soon": "Soon"
+    "asBadgeSrcLight": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&releaseDate=1276560000",
+    "asBadgeSrcDark": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1276560000",
+    "soon": "Soon",
+    "playReleaseDate": "On Google Play May 20"
   },
   "nedir": {
     "h": "What does it do?",
@@ -97,7 +100,9 @@
     "mentor": "Mentor",
     "mentorName": "Mahmut Abdurrahman Cığşar",
     "test": "Test team",
-    "testNames": "Mustafa Değirmencioğlu · Murat Yılmaz · Sena Yılmaz · Ali Kavas"
+    "testNames": "Mustafa Değirmencioğlu · Murat Yılmaz · Sena Yılmaz · Ali Kavas",
+    "contact": "Contact",
+    "contactLink": "Contact page"
   },
   "appsync": {
     "h": "Sync with the app",
@@ -161,13 +166,13 @@
     "replyEmpty": "Enter reply text."
   },
   "footer": {
-    "html": "© __YEAR__ ATA Chapter · <a href=\"../hakkimizda/\">About</a> · <a href=\"../nasil-yuklenir/\">Install</a> · <a href=\"../indir/\">Releases</a> · <a href=\"../kullanim-kosullari/\">Terms of Use</a> · <a href=\"../gizlilik-politikasi/\">Privacy (website)</a> · <a href=\"../google-play-gizlilik-politikasi/\">Google Play privacy</a> · <a href=\"../uygulama-gizlilik-politikasi/\">Privacy (APK)</a> · Unauthorized copying or imitation is prohibited and may result in legal action."
+    "html": "© __YEAR__ ATA Chapter · <a href=\"../hakkimizda/\">About</a> · <a href=\"../indir/\">Releases</a> · <a href=\"../kullanim-kosullari/\">Terms of Use</a> · <a href=\"../gizlilik-politikasi/\">Privacy (website)</a> · <a href=\"../google-play-gizlilik-politikasi/\">Google Play privacy</a> · <a href=\"../uygulama-gizlilik-politikasi/\">Privacy (APK)</a> · Unauthorized copying or imitation is prohibited and may result in legal action."
   },
   "page": {
     "downloadTitle": "Download — ATA Chapter",
-    "downloadDesc": "ATA Chapter — Play Store announcement, releases, changelog",
-    "downloadH1": "Releases",
-    "downloadLead": "APK downloads are <strong>permanently disabled</strong>. The app will be available on <strong>Google Play soon</strong>. Previous release notes are listed below.",
+    "downloadDesc": "ATA Chapter — Google Play launch notice",
+    "downloadH1": "Download",
+    "downloadLead": "The app will be published on <strong>Google Play</strong>. APK distribution has been permanently disabled.",
     "installTitle": "How to install — ATA Chapter",
     "installDesc": "How to install the ATA Chapter APK on Android.",
     "installH1": "How to install",
@@ -253,7 +258,7 @@
     "lnkDownload": "Releases",
     "lnkGh": "GitHub",
     "lnkIssues": "Issues",
-    "footerLegal": "© __YEAR__ ATA Chapter · <a href=\"nasil-yuklenir.html\">Install</a> · <a href=\"indir.html\">Releases</a>",
+    "footerLegal": "© __YEAR__ ATA Chapter · <a href=\"indir.html\">Releases</a>",
     "footerTag": "ATA chapter reference — early access. Store builds coming soon."
   },
   "install": {

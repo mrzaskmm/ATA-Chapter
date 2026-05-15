@@ -51,7 +51,7 @@
     "cite": "Erken erişim"
   },
   "btn": {
-    "apk": "Play Store'da yakında",
+    "apk": "20 Mayısta Google Play Store'da",
     "details": "Detaylar",
     "gotoDownload": "İndir sayfasına git"
   },
@@ -61,8 +61,11 @@
     "gpAlt": "Yakında Google Play’de",
     "asAlt": "Yakında App Store’da",
     "gpBadgeSrc": "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png",
-    "asBadgeSrc": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1276560000",
-    "soon": "Yakında"
+    "asBadgeSrc": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/tr-tr?size=250x83&releaseDate=1276560000",
+    "asBadgeSrcLight": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/tr-tr?size=250x83&releaseDate=1276560000",
+    "asBadgeSrcDark": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/tr-tr?size=250x83&releaseDate=1276560000",
+    "soon": "Yakında",
+    "playReleaseDate": "20 Mayısta Google Play Store'da"
   },
   "nedir": {
     "h": "Ne işe yarar?",
@@ -97,7 +100,9 @@
     "mentor": "Mentor",
     "mentorName": "Mahmut Abdurrahman Cığşar",
     "test": "Test ekibi",
-    "testNames": "Mustafa Değirmencioğlu · Murat Yılmaz · Sena Yılmaz · Ali Kavas"
+    "testNames": "Mustafa Değirmencioğlu · Murat Yılmaz · Sena Yılmaz · Ali Kavas",
+    "contact": "İletişim",
+    "contactLink": "İletişim sayfası"
   },
   "appsync": {
     "h": "Uygulama ile senkron",
@@ -161,13 +166,13 @@
     "replyEmpty": "Yanıt metni yazın."
   },
   "footer": {
-    "html": "© __YEAR__ ATA Chapter · <a href=\"../hakkimizda/\">Hakkımızda</a> · <a href=\"../nasil-yuklenir/\">Kurulum</a> · <a href=\"../indir/\">Sürümler</a> · <a href=\"../kullanim-kosullari/\">Kullanım Koşulları</a> · <a href=\"../gizlilik-politikasi/\">Gizlilik (site)</a> · <a href=\"../google-play-gizlilik-politikasi/\">Google Play gizliliği</a> · <a href=\"../uygulama-gizlilik-politikasi/\">Gizlilik (APK)</a> · İzinsiz kopyalama/taklit yasaktır; ihlalde hukuki işlem uygulanır."
+    "html": "© __YEAR__ ATA Chapter · <a href=\"../hakkimizda/\">Hakkımızda</a> · <a href=\"../indir/\">Sürümler</a> · <a href=\"../kullanim-kosullari/\">Kullanım Koşulları</a> · <a href=\"../gizlilik-politikasi/\">Gizlilik (site)</a> · <a href=\"../google-play-gizlilik-politikasi/\">Google Play gizliliği</a> · <a href=\"../uygulama-gizlilik-politikasi/\">Gizlilik (APK)</a> · İzinsiz kopyalama/taklit yasaktır; ihlalde hukuki işlem uygulanır."
   },
   "page": {
     "downloadTitle": "İndir — ATA Chapter",
-    "downloadDesc": "ATA Chapter — Play Store duyurusu, sürümler ve yama notları",
-    "downloadH1": "Sürümler",
-    "downloadLead": "APK indirme <strong>kalıcı olarak devre dışı</strong>. Uygulama <strong>Play Store'da yakında</strong> yayınlanacak. Önceki sürüm notları aşağıda.",
+    "downloadDesc": "ATA Chapter — Google Play yayın duyurusu",
+    "downloadH1": "İndir",
+    "downloadLead": "Uygulama <strong>Google Play</strong> üzerinden yayınlanacak. APK dağıtımı kalıcı olarak devre dışı bırakılmıştır.",
     "installTitle": "Nasıl yüklenir — ATA Chapter",
     "installDesc": "ATA Chapter — Android’e APK ile nasıl yüklenir.",
     "installH1": "Nasıl yüklenir",
@@ -253,7 +258,7 @@
     "lnkDownload": "Sürümler",
     "lnkGh": "GitHub",
     "lnkIssues": "Issues",
-    "footerLegal": "© __YEAR__ ATA Chapter · <a href=\"nasil-yuklenir.html\">Kurulum</a> · <a href=\"indir.html\">Sürümler</a>",
+    "footerLegal": "© __YEAR__ ATA Chapter · <a href=\"indir.html\">Sürümler</a>",
     "footerTag": "ATA chapter referansı — erken erişim. Mağaza sürümleri yakında."
   },
   "install": {

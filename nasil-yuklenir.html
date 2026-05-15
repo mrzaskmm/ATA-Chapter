@@ -1,145 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ATA Chapter — Android’e APK ile nasıl yüklenir.">
-  <meta name="theme-color" content="#0a0a0a">
-  <title>Nasıl yüklenir — ATA Chapter</title>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9236434613875809" crossorigin="anonymous"></script>
+  <meta http-equiv="refresh" content="0;url=anasayfa/">
+  <link rel="canonical" href="https://www.atachapter.com/anasayfa/">
+  <title>Yönlendiriliyor… — ATA Chapter</title>
   <script>
     (function () {
       try {
-        var h = location.hostname;
-        if (h && h !== "www.atachapter.com" && h !== "atachapter.com" && h !== "localhost" && h.indexOf("127.") !== 0) {
-          location.replace("https://www.atachapter.com" + location.pathname + location.search + location.hash);
-          return;
-        }
+        var q = window.location.search || "";
+        var hash = window.location.hash || "";
+        window.location.replace("anasayfa/" + q + hash);
       } catch (e) {}
-      try {
-        var tRaw = localStorage.getItem("ata-theme");
-        var t = tRaw === "light" || tRaw === "dark" ? tRaw : "dark";
-        document.documentElement.setAttribute("data-theme", t);
-        var lRaw = localStorage.getItem("ata-lang");
-        var lang = lRaw === "en" || lRaw === "tr" ? lRaw : "en";
-        document.documentElement.setAttribute("data-lang", lang);
-        document.documentElement.setAttribute("lang", lang === "en" ? "en" : "tr");
-        var metaTc = document.querySelector('meta[name="theme-color"]');
-        if (metaTc) metaTc.setAttribute("content", t === "dark" ? "#0a0a0a" : "#e4eef8");
-      } catch (e) {
-        document.documentElement.setAttribute("data-theme", "dark");
-        document.documentElement.setAttribute("data-lang", "en");
-        document.documentElement.setAttribute("lang", "en");
-      }
     })();
   </script>
-  <link rel="icon" type="image/png" href="images/app-icon.png">
-  <link rel="canonical" href="https://www.atachapter.com/nasil-yuklenir.html">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/app-site.css?v=122">
 </head>
-<body data-page="install">
-  <div class="app-shell">
-    <header class="app-top">
-      <div class="container app-top__inner">
-        <a class="app-brand" href="anasayfa/">
-          <span class="app-brand__mark"><img src="images/app-icon.png" width="32" height="32" alt=""></span>
-          ATA Chapter
-        </a>
-        <div class="app-nav-panel">
-          <nav id="site-primary-nav" class="app-menu" aria-label="Site">
-            <a href="anasayfa/" data-i18n="nav.home">Ana sayfa</a>
-            <a href="ata-chapter-nedir/">ATA Chapter Nedir?</a>
-            <a href="anasayfa/#ozellikler" data-i18n="nav.features">Özellikler</a>
-            <a href="chapterlar.html" data-i18n="nav.chapters">Chapterlar</a>
-            <a href="indir.html" data-i18n="nav.download" hidden>İndir</a>
-            <a href="nasil-yuklenir.html" aria-current="page" data-i18n="nav.how">Nasıl yüklenir</a>
-            <a href="test-ekibine-katilma.html" data-i18n="nav.testJoin">Test Ekibine Katılma</a>
-            <a href="anasayfa/#credits" data-i18n="nav.team">Ekip</a>
-            <a href="anasayfa/#geri-bildirim" data-i18n="nav.feedback">Geri bildirim</a>
-          </nav>
-        </div>
-        <div class="app-top__end">
-          <button type="button" class="app-nav-toggle" aria-expanded="false" aria-controls="site-primary-nav" data-i18n-aria-label="nav.menuOpen">
-            <span class="app-nav-toggle__bars" aria-hidden="true"></span>
-          </button>
-          <div class="app-controls" role="toolbar" aria-label="Dil ve tema">
-            <div class="lang-seg" role="group" aria-label="Dil">
-              <button type="button" data-lang-btn="tr" aria-pressed="false">TR</button>
-              <button type="button" data-lang-btn="en" aria-pressed="true">EN</button>
-            </div>
-            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Tema">
-              <span class="theme-toggle__moon" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-              </span>
-              <span class="theme-toggle__sun" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
-              </span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="app-nav-backdrop" data-app-nav-backdrop hidden aria-hidden="true"></div>
-    </header>
-
-    <main class="app-content container">
-      <div class="page-intro page-intro--hero">
-        <h1 data-i18n="page.installH1">Nasıl yüklenir</h1>
-        <p class="lead" data-i18n-html="page.installLead"></p>
-      </div>
-
-      <article class="prose reveal">
-        <h2 data-i18n="install.s1h">1. Ön koşullar</h2>
-        <ul>
-          <li data-i18n="install.s1a"></li>
-          <li data-i18n="install.s1b"></li>
-          <li data-i18n="install.s1c"></li>
-        </ul>
-
-        <h2 data-i18n="install.s2h">2. “Bilinmeyen uygulamalara” izin</h2>
-        <p data-i18n="install.s2p"></p>
-        <ol>
-          <li data-i18n="install.s2l1"></li>
-          <li data-i18n="install.s2l2"></li>
-          <li data-i18n="install.s2l3"></li>
-          <li data-i18n="install.s2l4"></li>
-        </ol>
-        <p class="note" data-i18n="install.s2note"></p>
-
-        <h2 data-i18n="install.s3h">3. APK’yı indir ve aç</h2>
-        <ol>
-          <li data-i18n-html="install.s3l1"></li>
-          <li data-i18n="install.s3l2"></li>
-          <li data-i18n="install.s3l3"></li>
-        </ol>
-
-        <h2 data-i18n="install.s4h">4. Kurulumu onayla</h2>
-        <ol>
-          <li data-i18n="install.s4l1"></li>
-          <li data-i18n="install.s4l2"></li>
-          <li data-i18n="install.s4l3"></li>
-        </ol>
-
-        <h2 data-i18n="install.s5h">5. Play Protect ve güvenlik uyarıları</h2>
-        <p data-i18n="install.s5p"></p>
-        <p class="note" data-i18n="install.s5note"></p>
-
-        <h2 data-i18n="install.s6h">6. Güncelleme (yeni APK)</h2>
-        <p data-i18n-html="install.s6p"></p>
-      </article>
-    </main>
-
-    <footer class="app-footer">
-      <div class="container">
-        <p class="app-footer__line" data-i18n-html="page.footerInstall"></p>
-      </div>
-    </footer>
-  </div>
-
-  <script src="js/site-ui.js?v=36" defer></script>
-  <script src="js/app-motion.js?v=26" defer></script>
-  <script src="js/cookie-consent.js?v=6" defer></script>
+<body>
+  <p style="font-family:system-ui,sans-serif;padding:1.5rem">
+    Yönlendiriliyor… <a href="anasayfa/">Ana sayfa</a>
+  </p>
 </body>
 </html>
