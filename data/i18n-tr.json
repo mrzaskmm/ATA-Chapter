@@ -51,7 +51,7 @@
     "cite": "Erken erişim"
   },
   "btn": {
-    "apk": "20 Mayısta Google Play Store'da",
+    "apk": "Mayısta Karşınızdayız",
     "details": "Detaylar",
     "gotoDownload": "İndir sayfasına git"
   },
@@ -65,12 +65,12 @@
     "asBadgeSrcLight": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/tr-tr?size=250x83&releaseDate=1276560000",
     "asBadgeSrcDark": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/tr-tr?size=250x83&releaseDate=1276560000",
     "soon": "Yakında",
-    "playReleaseDate": "20 Mayısta Google Play Store'da"
+    "playReleaseDate": "Mayısta Karşınızdayız"
   },
   "launch": {
     "eyebrow": "Duyuru",
-    "title": "20 Mayıs'ta Google Play'de Buluşuyoruz!",
-    "body": "<p>Aksilik olmadığı sürece <strong>ATA Chapter</strong>, <strong>20 Mayıs</strong> tarihinde <strong>Google Play Store</strong>'da yayında olacak.</p><p>Bu aşamaya gelene kadar projemizi destekleyen herkese <strong>içtenlikle teşekkür ederim</strong>. İlk günden bu yana inanan, deneyen ve geri bildirim gönderen herkesin emeği bu uygulamada var.</p><p>Projeye <strong>maddi destek</strong> sağlamak isteyenler, <a href=\"../iletisim/\">iletişim sayfasından</a> doğrudan <strong>Yusuf Mirza Sökmen</strong>'e ulaşabilir.</p>",
+    "title": "Mayısta Karşınızdayız",
+    "body": "<p><strong>ATA Chapter</strong> <strong>Google Play Store</strong>'da — <strong>Mayısta Karşınızdayız</strong>.</p><p>Bu aşamaya gelene kadar projemizi destekleyen herkese <strong>içtenlikle teşekkür ederim</strong>. İlk günden bu yana inanan, deneyen ve geri bildirim gönderen herkesin emeği bu uygulamada var.</p><p>Projeye <strong>maddi destek</strong> sağlamak isteyenler, <a href=\"../iletisim/\">iletişim sayfasından</a> doğrudan <strong>Yusuf Mirza Sökmen</strong>'e ulaşabilir.</p>",
     "dontShow": "Bu duyuruyu bir daha gösterme",
     "ok": "Anladım",
     "close": "Duyuruyu kapat"
