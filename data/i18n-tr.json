@@ -28,10 +28,10 @@
     "releaseTipClose": "Bildirimi kapat (bir daha gösterme)",
     "playStoreNoticeLabel": "Önemli duyuru",
     "playStoreNoticeBody": "<strong>APK indirme kalıcı olarak devre dışı bırakıldı.</strong> Uygulama Play Store'da yakında yayınlanacak.",
-    "alphaTestLabel": "Alpha test ekibi çağrısı",
-    "alphaTestBody": "Uygulama Play Store'da <strong>alpha</strong> sürümünde ve bir üst aşama için 20 test kullanıcı gerekiyor. Katılım detayları için <a href=\"../test-ekibine-katilma.html\">Test Ekibine Katılma</a> sayfasını aç.",
-    "alphaReq1": "Android 7.0 ve üzeri bir cihaza sahip olmanız gerekir.",
-    "alphaReq2": "Test sırasında karşılaşılan hata/aksaklıkları geri bildirim olarak iletebilmeniz gerekir."
+    "alphaTestLabel": "Test ekibine katılım",
+    "alphaTestBody": "Adımlar <a href=\"https://groups.google.com/g/ata-chapter-test\" rel=\"noopener noreferrer\" target=\"_blank\">ATA Chapter Test</a> Google Grubunda. Gruba katılıp <strong>sabitlenmiş iletiyi</strong> okuyun; ayrıntılar <a href=\"../test-ekibine-katilma.html\">Test Ekibine Katılma</a> sayfasında.",
+    "alphaReq1": "Google Grubuna katılın.",
+    "alphaReq2": "Sabitlenmiş iletideki talimatları uygulayın."
   },
   "hero": {
     "headline": "ATA Chapter Artık Cebinizde",

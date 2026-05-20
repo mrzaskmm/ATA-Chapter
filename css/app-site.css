@@ -898,6 +898,10 @@ a.store-badge-wrap--link:focus-visible {
   border-radius: 8px;
 }
 
+.test-team-cta {
+  margin: 1.25rem 0 1.75rem;
+}
+
 .btn-row .store-badge-wrap--hero {
   align-items: flex-start;
 }

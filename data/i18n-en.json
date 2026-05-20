@@ -28,10 +28,10 @@
     "releaseTipClose": "Dismiss (don’t show again)",
     "playStoreNoticeLabel": "Important update",
     "playStoreNoticeBody": "<strong>APK downloads have been permanently disabled.</strong> The app will be released on Google Play soon.",
-    "alphaTestLabel": "Alpha testing team call",
-    "alphaTestBody": "The app is currently in <strong>alpha</strong> on Google Play and we need 20 testers for the next stage. See full details on the <a href=\"../test-ekibine-katilma.html\">Join Test Team</a> page.",
-    "alphaReq1": "You need a device running Android 7.0 or later.",
-    "alphaReq2": "You should be able to send feedback when you encounter bugs or issues during testing."
+    "alphaTestLabel": "Join the test team",
+    "alphaTestBody": "Steps are in the <a href=\"https://groups.google.com/g/ata-chapter-test\" rel=\"noopener noreferrer\" target=\"_blank\">ATA Chapter Test</a> Google Group. Join the group and read the <strong>pinned post</strong>; details are also on the <a href=\"../test-ekibine-katilma.html\">Join Test Team</a> page.",
+    "alphaReq1": "Join the Google Group.",
+    "alphaReq2": "Follow the instructions in the pinned post."
   },
   "hero": {
     "headline": "ATA Chapter In Your Pocket",
