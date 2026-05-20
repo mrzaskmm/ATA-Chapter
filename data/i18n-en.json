@@ -51,7 +51,7 @@
     "cite": "Early access"
   },
   "btn": {
-    "apk": "See you in May",
+    "apk": "Coming soon",
     "details": "Details",
     "gotoDownload": "Go to download page"
   },
@@ -65,12 +65,12 @@
     "asBadgeSrcLight": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&releaseDate=1276560000",
     "asBadgeSrcDark": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1276560000",
     "soon": "Soon",
-    "playReleaseDate": "See you in May"
+    "playReleaseDate": "Coming soon"
   },
   "launch": {
     "eyebrow": "Announcement",
-    "title": "See you in May",
-    "body": "<p><strong>ATA Chapter</strong> on the <strong>Google Play Store</strong> — <strong>see you in May</strong>.</p><p>I sincerely <strong>thank everyone</strong> who has supported the project to reach this point. The trust, testing and feedback from day one are reflected in this app.</p><p>If you would like to provide <strong>financial support</strong>, you can reach <strong>Yusuf Mirza Sökmen</strong> directly through the <a href=\"../iletisim/\">contact page</a>.</p>",
+    "title": "Coming soon",
+    "body": "<p><strong>ATA Chapter</strong> on the <strong>Google Play Store</strong> — <strong>coming soon</strong>.</p><p>I sincerely <strong>thank everyone</strong> who has supported the project to reach this point. The trust, testing and feedback from day one are reflected in this app.</p><p>If you would like to provide <strong>financial support</strong>, you can reach <strong>Yusuf Mirza Sökmen</strong> directly through the <a href=\"../iletisim/\">contact page</a>.</p>",
     "dontShow": "Don't show this announcement again",
     "ok": "Got it",
     "close": "Close announcement"

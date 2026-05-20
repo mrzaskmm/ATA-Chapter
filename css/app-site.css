@@ -882,6 +882,22 @@ body.is-app-nav-open {
   gap: 0.35rem;
 }
 
+a.store-badge-wrap--link {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.15s ease;
+}
+
+a.store-badge-wrap--link:hover {
+  opacity: 0.88;
+}
+
+a.store-badge-wrap--link:focus-visible {
+  outline: 2px solid var(--accent, #409cff);
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+
 .btn-row .store-badge-wrap--hero {
   align-items: flex-start;
 }
